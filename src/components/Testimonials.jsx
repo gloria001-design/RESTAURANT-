@@ -29,16 +29,16 @@ const reviews = [
 
 const Testimonials = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-5">
 
         <div className="text-center">
 
-          <span className="uppercase tracking-[4px] text-orange-500 font-semibold">
+          <span className="uppercase tracking-[2px] sm:tracking-[4px] text-orange-500 font-semibold">
             Testimonials
           </span>
 
-          <h2 className="text-4xl font-bold mt-4">
+          <h2 className="text-3xl sm:text-4xl font-bold mt-4">
             What Our Customers Say
           </h2>
 
@@ -49,12 +49,12 @@ const Testimonials = () => {
 
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-10 md:mt-16">
 
           {reviews.map((review) => (
             <div
               key={review.id}
-              className="bg-[#FFF8F1] rounded-3xl p-8 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300"
+              className="bg-[#FFF8F1] rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300"
             >
 
               <div className="flex items-center gap-4">

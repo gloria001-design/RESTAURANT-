@@ -2,16 +2,16 @@ import { FaCalendarAlt, FaClock, FaUsers } from "react-icons/fa";
 
 const Reservation = () => {
   return (
-    <section className="py-24 bg-[#FFF8F1]">
+    <section className="py-16 md:py-24 bg-[#FFF8F1]">
       <div className="max-w-7xl mx-auto px-5">
 
         <div className="text-center">
 
-          <span className="uppercase tracking-[4px] text-orange-500 font-semibold">
+          <span className="uppercase tracking-[2px] sm:tracking-[4px] text-orange-500 font-semibold">
             Reservation
           </span>
 
-          <h2 className="text-4xl md:text-5xl font-bold mt-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4">
             Book Your Table
           </h2>
 
@@ -22,16 +22,16 @@ const Reservation = () => {
 
         </div>
 
-        <div className="bg-white rounded-3xl shadow-lg mt-16 p-8">
+        <div className="bg-white rounded-3xl shadow-lg mt-10 md:mt-16 p-5 sm:p-8">
 
-          <form className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <form className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
 
             {/* Name */}
 
             <input
               type="text"
               placeholder="Your Name"
-              className="border border-gray-200 rounded-xl px-5 py-4 outline-none focus:border-orange-500"
+              className="border border-gray-200 rounded-xl px-5 py-4 text-base outline-none focus:border-orange-500"
             />
 
             {/* Date */}
@@ -42,7 +42,7 @@ const Reservation = () => {
 
               <input
                 type="date"
-                className="w-full border border-gray-200 rounded-xl pl-12 pr-4 py-4 outline-none focus:border-orange-500"
+                className="w-full border border-gray-200 rounded-xl pl-12 pr-4 py-4 text-base outline-none focus:border-orange-500"
               />
 
             </div>
@@ -55,7 +55,7 @@ const Reservation = () => {
 
               <input
                 type="time"
-                className="w-full border border-gray-200 rounded-xl pl-12 pr-4 py-4 outline-none focus:border-orange-500"
+                className="w-full border border-gray-200 rounded-xl pl-12 pr-4 py-4 text-base outline-none focus:border-orange-500"
               />
 
             </div>
@@ -66,7 +66,7 @@ const Reservation = () => {
 
               <FaUsers className="absolute left-4 top-5 text-orange-500" />
 
-              <select className="w-full border border-gray-200 rounded-xl pl-12 pr-4 py-4 outline-none focus:border-orange-500">
+              <select className="w-full border border-gray-200 rounded-xl pl-12 pr-4 py-4 text-base outline-none focus:border-orange-500">
 
                 <option>1 Person</option>
                 <option>2 People</option>
@@ -80,7 +80,7 @@ const Reservation = () => {
 
           </form>
 
-          <div className="text-center mt-10">
+          <div className="text-center mt-8 sm:mt-10">
 
             <button className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-4 rounded-full font-semibold transition duration-300 hover:scale-105">
               Book Now

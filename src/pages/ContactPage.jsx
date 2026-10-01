@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import {
   FaPhoneAlt,
@@ -10,17 +9,16 @@ import {
 const ContactPage = () => {
   return (
     <>
-      <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-[#FFF8F1] py-24">
+      <section className="bg-[#FFF8F1] py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-5 text-center">
 
-          <span className="uppercase tracking-[4px] text-orange-500 font-semibold">
+          <span className="uppercase tracking-[2px] sm:tracking-[4px] text-orange-500 font-semibold">
             Contact Us
           </span>
 
-          <h1 className="text-5xl font-bold mt-4 text-gray-800">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 text-gray-800">
             We'd Love To Hear From You
           </h1>
 
@@ -34,8 +32,8 @@ const ContactPage = () => {
 
       {/* Contact Section */}
 
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-16">
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-10 lg:gap-16">
 
           {/* Contact Form */}
 
@@ -91,7 +89,7 @@ const ContactPage = () => {
 
               <div className="flex items-start gap-5">
 
-                <div className="w-14 h-14 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
                   <FaPhoneAlt />
                 </div>
 
@@ -110,7 +108,7 @@ const ContactPage = () => {
 
               <div className="flex items-start gap-5">
 
-                <div className="w-14 h-14 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
                   <FaEnvelope />
                 </div>
 
@@ -129,7 +127,7 @@ const ContactPage = () => {
 
               <div className="flex items-start gap-5">
 
-                <div className="w-14 h-14 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
                   <FaMapMarkerAlt />
                 </div>
 
@@ -148,7 +146,7 @@ const ContactPage = () => {
 
               <div className="flex items-start gap-5">
 
-                <div className="w-14 h-14 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 rounded-full bg-orange-100 flex items-center justify-center text-orange-500 text-xl">
                   <FaClock />
                 </div>
 
@@ -180,7 +178,7 @@ const ContactPage = () => {
           <iframe
             title="Urban Grill Location"
             src="https://www.google.com/maps?q=Victoria+Island+Lagos&output=embed"
-            className="w-full h-[450px] rounded-3xl shadow-lg"
+            className="w-full h-[300px] sm:h-[450px] rounded-3xl shadow-lg"
             loading="lazy"
           ></iframe>
 

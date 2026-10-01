@@ -36,14 +36,14 @@ const AboutPage = () => {
       {/* <Navbar /> */}
 
       {/* Hero */}
-      <section className="bg-[#FFF8F1] py-24">
+      <section className="bg-[#FFF8F1] py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-5 text-center">
 
-          <span className="uppercase tracking-[4px] text-orange-500 font-semibold">
+          <span className="uppercase tracking-[2px] sm:tracking-[4px] text-orange-500 font-semibold">
             About Us
           </span>
 
-          <h1 className="text-5xl font-bold mt-4 text-gray-800">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 text-gray-800">
             Welcome To Urban Grill
           </h1>
 
@@ -57,8 +57,8 @@ const AboutPage = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-16 items-center">
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* Image */}
 
@@ -74,11 +74,11 @@ const AboutPage = () => {
 
           <div>
 
-            <span className="text-orange-500 uppercase tracking-[4px] font-semibold">
+            <span className="text-orange-500 uppercase tracking-[2px] sm:tracking-[4px] font-semibold">
               Our Story
             </span>
 
-            <h2 className="text-4xl font-bold mt-4 text-gray-800">
+            <h2 className="text-3xl sm:text-4xl font-bold mt-4 text-gray-800">
               Serving Great Food Since 2014
             </h2>
 
@@ -104,7 +104,7 @@ const AboutPage = () => {
       </section>
 
       {/* Statistics */}
-      <section className="py-24 bg-[#FFF8F1]">
+      <section className="py-16 md:py-24 bg-[#FFF8F1]">
         <div className="max-w-7xl mx-auto px-5">
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

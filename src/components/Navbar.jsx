@@ -21,10 +21,10 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full bg-[#FFF8F1] py-6 sticky top-0 z-50">
+    <header className="w-full bg-[#FFF8F1] py-3 sm:py-6 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-5">
 
-        <div className="bg-white rounded-full shadow-sm border border-orange-100 h-[72px] flex items-center justify-between px-8">
+        <div className="bg-white rounded-full shadow-sm border border-orange-100 h-[64px] sm:h-[72px] flex items-center justify-between px-4 sm:px-8">
 
           {/* Logo */}
           <NavLink to="/" className="flex items-center gap-3">
@@ -33,7 +33,7 @@ const Navbar = () => {
               <FaUtensils />
             </div>
 
-            <h1 className="text-2xl font-bold text-gray-800">
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-800">
               Urban Grill
             </h1>
 
@@ -91,7 +91,7 @@ const Navbar = () => {
 
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden text-2xl text-orange-500"
+            className="lg:hidden text-2xl text-orange-500 p-2 -mr-2"
           >
             {open ? <FaTimes /> : <FaBars />}
           </button>

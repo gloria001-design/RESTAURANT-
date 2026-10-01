@@ -33,16 +33,16 @@ const dishes = [
 
 const PopularDishes = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-5">
 
         {/* Section Heading */}
         <div className="text-center">
-          <span className="text-orange-500 font-semibold uppercase tracking-[4px]">
+          <span className="text-orange-500 font-semibold uppercase tracking-[2px] sm:tracking-[4px]">
             Popular Dishes
           </span>
 
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 text-gray-800">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 text-gray-800">
             Our Popular Menu
           </h2>
 
@@ -54,12 +54,12 @@ const PopularDishes = () => {
 
         {/* Cards */}
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mt-10 md:mt-16">
 
           {dishes.map((dish) => (
             <div
               key={dish.id}
-              className="bg-[#FFF8F1] rounded-3xl p-6 text-center shadow-sm hover:shadow-xl hover:-translate-y-3 transition-all duration-300"
+              className="bg-[#FFF8F1] rounded-3xl p-5 sm:p-6 text-center shadow-sm hover:shadow-xl hover:-translate-y-3 transition-all duration-300"
             >
               {/* Food Image */}
 

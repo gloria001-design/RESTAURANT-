@@ -8,14 +8,14 @@ const MenuPage = () => {
       {/* <Navbar /> */}
 
       {/* Hero Section */}
-      <section className="bg-[#FFF8F1] py-24">
+      <section className="bg-[#FFF8F1] py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-5 text-center">
 
-          <span className="uppercase tracking-[4px] text-orange-500 font-semibold">
+          <span className="uppercase tracking-[2px] sm:tracking-[4px] text-orange-500 font-semibold">
             Our Menu
           </span>
 
-          <h1 className="text-5xl font-bold mt-4 text-gray-800">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 text-gray-800">
             Explore Our Delicious Meals
           </h1>
 

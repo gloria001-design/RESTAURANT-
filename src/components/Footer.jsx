@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1F2937] text-white pt-20 pb-8">
+    <footer className="bg-[#1F2937] text-white pt-14 md:pt-20 pb-8">
       <div className="max-w-7xl mx-auto px-5">
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -104,7 +104,7 @@ const Footer = () => {
 
               <div className="flex gap-3">
                 <FaEnvelope className="text-orange-500 mt-1" />
-                <span>info@urbangrill.com</span>
+                <span className="break-all">info@urbangrill.com</span>
               </div>
 
             </div>
@@ -141,7 +141,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Urban Grill. All rights reserved.
           </p>
 
-          <div className="flex gap-6 text-gray-500">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-gray-500">
 
             <a href="#" className="hover:text-orange-500 transition">
               Privacy Policy
